@@ -54,6 +54,27 @@ public class Main {
     }
 
     public static void main(String[] args) {
+/*
+        Scanner scan = new Scanner(System.in);
+        HashMap<String, Integer> m = new HashMap<String, Integer>();
+        LinkedHashMap<String, Integer> mOnes = new LinkedHashMap<String, Integer>();
+        while (scan.hasNext()) {
+            String str = scan.next();
+            mOnes.put(str, 1);
+            if (!m.containsKey(str)) {
+                m.put(str, 1);
+            } else {
+                m.put(str, m.get(str) + 1);
+            }
+        }
+        for (String key: m.keySet()) {
+            System.out.println(key + ": " + m.get(key));
+        }
+        System.out.println("----------");
+        for (String key: m.keySet()) {
+            System.out.printf("%s ", key);
+        }
+*/
         int[] a = new int[3];
         a[0] = 1; a[1] = 6; a[2] = 15;
         int[] b = new int[4];
